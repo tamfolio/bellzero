@@ -1,0 +1,30 @@
+<svg viewBox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bellzero Auto Dealership Shop logo">
+  <defs>
+    <linearGradient id="carBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26367f"/>
+      <stop offset="1" stop-color="#141f54"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Red ring -->
+  <circle cx="105" cy="100" r="70" fill="none" stroke="#E11F2A" stroke-width="16"/>
+
+  <!-- Car (drawn over the ring so it 'breaks through') -->
+  <g transform="translate(24,74)">
+    <!-- body -->
+    <path d="M4,46 L10,30 C13,22 20,18 30,18 L52,18 L70,4
+             C75,1 82,0 90,0 L116,0 C126,0 134,4 139,13 L150,28
+             C156,30 158,36 156,44 L156,48 L4,48 Z" fill="url(#carBody)"/>
+    <!-- glass -->
+    <path d="M62,15 L73,5 C77,2 82,2 88,2 L110,2 C118,2 123,5 127,11 L131,15 Z" fill="#DCE6FA"/>
+    <!-- wheels -->
+    <circle cx="42" cy="48" r="16" fill="#141f54"/>
+    <circle cx="42" cy="48" r="6" fill="#DCE6FA"/>
+    <circle cx="120" cy="48" r="16" fill="#141f54"/>
+    <circle cx="120" cy="48" r="6" fill="#DCE6FA"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="216" y="92" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#1A1A1A">Bellzero Auto</text>
+  <text x="218" y="128" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="6" fill="#E11F2A">DEALERSHIP SHOP</text>
+</svg>
